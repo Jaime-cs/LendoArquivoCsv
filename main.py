@@ -28,6 +28,8 @@ arquivo_csv = pd.read_csv(ARQUIVO_CSV, usecols= ['location', 'date', 'total_case
 
 # Mostrando os 10 primeiros
 print(arquivo_csv.head(10).to_string())
+
+
 #print(arquivo_csv['location'].tail(20)) # ultimos 20
 #print(arquivo_csv['location'].head(20)) #primeiros 20
 
